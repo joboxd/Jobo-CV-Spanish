@@ -1,13 +1,13 @@
 baseURL: https://JoboPortfolio/
-languageCode: en-us
+languageCode: es-mx
 build:
   writeStats: true
 params:
   title: Jacob CV
   author: Jobo
-  description: Website title
+  description: Título del sitio web
   copyright: >-
-    powered by [hugo](https://gohugo.io/) & deployed on
+    powered by [hugo](https://gohugo.io/) & desplegado en
     [Cloudflare](https://www.cloudflare.com/)
   theme:
     mainTheme: dark
@@ -25,11 +25,11 @@ params:
 
   profile:
     name: "Jacob de Jesús Angel Villanueva."
-    tagline: Software developer Junior
+    tagline: Desarrollador de software Junior
     location: 
     photo: Jobo-foto-cv.jpg
   social:
-    title: Links
+    title: Enlaces
     list:
       - icon: fab fa-linkedin-in
         url: "www.linkedin.com/in/jacob-dejesús-angel-villanueva-8aba8b201"
@@ -47,64 +47,63 @@ params:
     - item: skill
     - item: hobby
   aboutme:
-    title: About Me
+    title: Acerca de mí
     icon: fas fa-user
-    description: I specialize in technologies such as JavaScript, HTML, CSS, and frameworks like [Angular](https://angular.dev/), [React](https://es.react.dev/), and [Spring Boot.](https://spring.io/projects/spring-boot) I am passionate about solving complex problems and continuously learning new tools and languages. I focus on code quality, teamwork, and continuous improvement. I am looking for opportunities to further develop my skills and contribute to innovative projects. 
+    description: Me especializo en tecnologías como JavaScript, HTML, CSS y frameworks como [Angular](https://angular.dev/), [React](https://es.react.dev/) y [Spring Boot.](https://spring.io/projects/spring-boot) Me apasiona resolver problemas complejos y aprender continuamente nuevas herramientas y lenguajes. Me enfoco en la calidad del código, el trabajo en equipo y la mejora continua. Estoy buscando oportunidades para seguir desarrollando mis habilidades y contribuir a proyectos innovadores.
   experience:
-    title: Experiences
+    title: Experiencia
     icon: fas fa-briefcase
     list:
-      - position: Junior Developer
-        dates: 2023 - *Present*
+      - position: Desarrollador Junior
+        dates: 2023 - *Presente*
         url: https://www.tecnomotum.com.mx/
         company: TECNOMOTUM
         details: |1-
-          - Requirement gathering with users
-          - Improving existing processes from other areas through software development specialized in their needs
-          - Mentoring other team members
-          - Deployment of backend and frontend applications
-          - Creating queries for relational and non-relational databases
-          - Creating relational UML diagrams
-          - Migrating GitHub repositories
-          - [Nocode Apps (Appsheet)](https://about.appsheet.com/home/)
-      - position: PMO Trainee
+          - Recolección de requerimientos con usuarios
+          - Mejorar procesos existentes de otras áreas mediante desarrollo de software especializado en sus necesidades
+          - Mentoreo de otros miembros del equipo
+          - Despliegue de aplicaciones backend y frontend
+          - Creación de consultas para bases de datos relacionales y no relacionales
+          - Creación de diagramas UML relacionales
+          - Migración de repositorios GitHub
+          - [Aplicaciones sin código (Appsheet)](https://about.appsheet.com/home/)
+      - position: Practicante en PMO
         dates: 2022 - 2023
         url: "https://www.tenaristamsa.com/es"
         company: TENARIS TAMSA
         details: |1-
-          - Creation and support to Excel Macros
-          - Mentoring other team members about how to dev Macros
-          - Daily proccess to update the Customers' files
-          - Improving existing processes
-          - Optimization of loading, unloading, and updating times for documents
-          - [NocodeApps (PowerApps)](https://www.microsoft.com/es-es/power-platform/products/power-apps)
+          - Creación y soporte para Macros en Excel
+          - Mentoreo a otros miembros del equipo sobre cómo desarrollar Macros
+          - Proceso diario de actualización de archivos de clientes
+          - Mejorar procesos existentes
+          - Optimización de tiempos de carga, descarga y actualización de documentos
+          - [Aplicaciones sin código (PowerApps)](https://www.microsoft.com/es-es/power-platform/products/power-apps)
   education:
-    title: Education
+    title: Educación
     icon: fas fa-graduation-cap
     list:
-      - degree: Bachelor's Degree in Computer Systems Engineering
-        college: Instituto Tecnologico de Orizaba
+      - degree: Ingeniería en Sistemas Computacionales
+        college: Instituto Tecnológico de Orizaba
         dates: 2017 - 2022
   
   project:
-    title: Projects
+    title: Proyectos
     icon: fas fa-project-diagram
     list:
-    - title: Netsuite Integrations
-      description: Creation of ETLs to connect Netsuite with other Motum platforms (Java)
-    - title: Inventory Management
-      description: Management of IT assets – Support in AppSheet
-    - title: Calculate Commissions ST
-      description: Complex system to manage technical support commissions (Angular/Java/MySQL)
-    - title: Qualitas System
-      description: System to display Qualitas subscription details (ReactJS/Java/PostgreSQL)
-    - title: Send Invoices
-      description: Java application to send invoices to customers from Excel files
-    - title: Send Uptime
-      description: Java application to send ticket summaries to Motum’s customers using two Excel files for the CSM department
-
+    - title: Integraciones de Netsuite
+      description: Creación de ETLs para conectar Netsuite con otras plataformas de Motum (Java)
+    - title: Gestión de Inventario TI
+      description: Gestión de activos de TI – Soporte en AppSheet
+    - title: Cálculo de Comisiones ST
+      description: Sistema complejo para gestionar las comisiones de soporte técnico (Angular/Java/MySQL)
+    - title: Sistema Qualitas
+      description: Sistema para mostrar los detalles de suscripción de Qualitas (ReactJS/Java/PostgreSQL)
+    - title: Enviar Facturas
+      description: Aplicación Java para enviar facturas a clientes desde archivos de Excel
+    - title: Enviar Tiempos de Actividad (Uptime)
+      description: Aplicación Java para enviar resúmenes de tickets a los clientes de Motum utilizando dos archivos Excel para el departamento de CSM
   skill:
-    title: Skills
+    title: Habilidades
     panelId: skill-panel
     icon: fas fa-cogs
     list:
@@ -112,14 +111,14 @@ params:
       - skill: "- ReactJS"
       - skill: "- SpringBoot"
       - skill: "- Docker"
-      - skill: "- GCP(Artifact Registry, CloudRun, Jobs, Firebase, Firestore)"
+      - skill: "- GCP (Artifact Registry, CloudRun, Jobs, Firebase, Firestore)"
       - skill: "- Git, GitHub, GitLab"
       - skill: "- SQL, MYSQL, POSTGRESQL"
       - skill: "- JIRA"
       - skill: "- Appsheet"
-      - skill: "- English B1+"
+      - skill: "- Inglés B1+"
   hobby:
-    title: In progress
+    title: En progreso
     icon: fas fa-code
     list: 
       - hobby: "- DevOps"
